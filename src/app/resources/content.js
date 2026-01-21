@@ -1,15 +1,15 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Nor",
+  lastName: "Amalina",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Student of Bachelor of Information Technology    ",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  email: "ninaakamarulzaman@gmail.com",
+  location: "Asia/Malaysia", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -18,8 +18,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I am developing smart device which is Smart Shoes in my subject of Critical & Creative Thinking for Information Technology Solution .
     </>
   ),
 };
@@ -63,8 +62,8 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Amalina, student of Student of Bachelor of Information Technology <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, working as Junior ERP consultant
+      <br /> at Software Developer Company. I evaluate information carefully before making conclusions.
     </>
   ),
 };
@@ -90,9 +89,11 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Junior ERP Consultant with strong experience in billing, accounts receivable analysis, 
+        financial reporting, and ERP data management. Background in accounting enables 
+        accurate reconciliation, reporting validation, and insight-driven decision support. 
+        Actively applying SQL, Power BI, and Excel analytics to transform operational finance 
+        data into management-ready reports.
       </>
     ),
   },
@@ -101,17 +102,17 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "React Technology Sdn Bhd",
+        timeframe: "2025 - Present",
+        role: "Junior ERP consultant",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Successfully supported ERP financial operations through accurate billing, 
+            accounts receivable analysis, and validated financial reporting.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Applied SQL, Power BI, and Excel analytics to transform operational 
+            operational finance data into management-ready insights.
           </>,
         ],
         images: [
@@ -147,12 +148,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Universiti Teknologi MARA",
+        description: <>Studied of Bachelor of Information Technology (Hons.).</>,
       },
       {
         name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        description: <>Studied of Bachelor of Real Estate Management (Hons.).</>,
       },
     ],
   },
@@ -161,8 +162,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Micorsoft Power BI",
+        description: <>Utilized Power BI to transform ERP and SQL-based operational data into clear, interactive dashboards and management-ready financial reports.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -180,8 +181,8 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "SQL",
+        description: <>Applied advanced SQL scripting for data extraction, validation, migration verification, reconciliation, and reporting to ensure ERP data accuracy and integrity.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -266,3 +267,4 @@ const gallery = {
 };
 
 export { person, social, newsletter, home, about, blog, work, gallery };
+
